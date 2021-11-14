@@ -1,6 +1,6 @@
 map <F5> :call Compile() <CR>
 
-echom 'Hello minic'
+" echom 'Hello minic'
 function! Compile()
     if !(&filetype == 'minic')
         " Get file and folder
